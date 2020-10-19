@@ -179,3 +179,28 @@ h3 {
     transform: scale(1.2);
     border: pink solid 2.2px
 }
+
+.kf div {
+    max-height: 250px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttkey:hover {
+    height: 20px;
+    animation-name: bt;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    background-color: orange;
+}
+
+@keyframes bt {
+    50% {
+        transform: scale(5);
+    }
+    100% {
+        background-color: red;
+    }
+}
